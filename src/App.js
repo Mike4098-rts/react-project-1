@@ -7,11 +7,9 @@ function App() {
     
     <div className="wrapper">
     <Navbar/> 
-    
      <div>
        <Outlet/>
      </div>
-     
     </div>
    
   );

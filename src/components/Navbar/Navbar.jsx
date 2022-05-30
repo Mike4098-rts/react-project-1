@@ -3,10 +3,10 @@ const Navbar = () => {
     return (
         <div>
         <nav className="nav">
-        <h1>OVERSKRIFT NAVBAR</h1>
+        <a href="/">nav</a>
         <Link to="/Home">Main content</Link>
         <Link to="/About">About</Link>
-        <Link to="/">Home</Link>
+        
         </nav> 
         </div>
      );
