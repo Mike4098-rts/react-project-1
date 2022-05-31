@@ -2,6 +2,7 @@
 
 import { css } from "@emotion/react";
 import Navbar from "../Navbar/Navbar";
+import ImgSlider from "./slider";
 
 const Home = () => {
     const style = {
@@ -16,7 +17,8 @@ const Home = () => {
         `,
         p: css`
         padding: 0px 10px 10px 10px ;
-        `
+        `,
+     
     }
     return ( 
         <div>
@@ -27,7 +29,9 @@ const Home = () => {
     <p css={style.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad provident sapiente unde minus eligendi tempore dolorem reiciendis, est voluptatum, numquam necessitatibus. Dolorum exercitationem architecto, repellat tempore earum voluptates quam.
   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos eius placeat eos at quas repellat facere odio voluptatibus excepturi consequuntur laborum optio labore suscipit ut officiis aut, enim non voluptate?
     </p>
+    <ImgSlider />
 </div>
+
 </div>
      );
 }
